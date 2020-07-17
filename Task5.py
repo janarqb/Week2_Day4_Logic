@@ -1,0 +1,6 @@
+x=input('enter an integer:') 
+y=input('enter an integer:') 
+z=input('enter an integer:') 
+if x==y and y==z: print('all the same') 
+if not x==y and not y==z: print('all different') 
+if x==y or y==z or z==x: print('neither')
